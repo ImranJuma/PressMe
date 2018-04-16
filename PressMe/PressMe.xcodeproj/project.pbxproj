@@ -14,8 +14,8 @@
 		6A7A673220800E24008D42C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A673020800E24008D42C1 /* LaunchScreen.storyboard */; };
 		6A7A673D20800E24008D42C1 /* PressMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A673C20800E24008D42C1 /* PressMeTests.swift */; };
 		6A7A674820800E24008D42C1 /* PressMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A7A674720800E24008D42C1 /* PressMeUITests.swift */; };
-		6A7A675620800F63008D42C1 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A7A675520800F63008D42C1 /* Cat.wav */; };
 		6A7A675920801477008D42C1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7A675820801466008D42C1 /* AVFoundation.framework */; };
+		6A9FC27C20843380009977D3 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6A9FC27B20843380009977D3 /* Cat.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		6A7A674320800E24008D42C1 /* PressMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PressMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A7A674720800E24008D42C1 /* PressMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressMeUITests.swift; sourceTree = "<group>"; };
 		6A7A674920800E24008D42C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A7A675520800F63008D42C1 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cat.wav; path = ../../../Cat.wav; sourceTree = "<group>"; };
 		6A7A675820801466008D42C1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A9FC27B20843380009977D3 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cat.wav; path = ../../Cat.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				6A7A672E20800E24008D42C1 /* Assets.xcassets */,
 				6A7A673020800E24008D42C1 /* LaunchScreen.storyboard */,
 				6A7A673320800E24008D42C1 /* Info.plist */,
-				6A7A675520800F63008D42C1 /* Cat.wav */,
+				6A9FC27B20843380009977D3 /* Cat.wav */,
 			);
 			path = PressMe;
 			sourceTree = "<group>";
@@ -250,7 +250,7 @@
 				6A7A673220800E24008D42C1 /* LaunchScreen.storyboard in Resources */,
 				6A7A672F20800E24008D42C1 /* Assets.xcassets in Resources */,
 				6A7A672D20800E24008D42C1 /* Main.storyboard in Resources */,
-				6A7A675620800F63008D42C1 /* Cat.wav in Resources */,
+				6A9FC27C20843380009977D3 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
